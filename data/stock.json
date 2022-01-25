@@ -5,7 +5,7 @@
     "tipo": "multiple",
     "precio": 14500,
     "img": "/images/cart-item-1.png",
-    "cantidad": 50
+    "cantidad": 1
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "tipo": "equipo completo",
     "precio": 22000,
     "img": "/images/cart-item-3.png",
-    "cantidad": 50
+    "cantidad": 1
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "tipo": "medio equipo",
     "precio": 12000,
     "img": "/images/cart-item-2.png",
-    "cantidad": 10
+    "cantidad": 1
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "tipo": "medio equipo",
     "precio": 14000,
     "img": "/images/cart-item-2.png",
-    "cantidad": 10
+    "cantidad": 1
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "tipo": "multiple",
     "precio": 12000,
     "img": "/images/cart-item-1.png",
-    "cantidad": 10
+    "cantidad": 1
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "tipo": "equipo completo",
     "precio": 35000,
     "img": "/images/cart-item-3.png",
-    "cantidad": 10
+    "cantidad": 1
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@
     "tipo": "medio equipo",
     "precio": 20000,
     "img": "/images/cart-item-2.png",
-    "cantidad": 10
+    "cantidad": 1
   },
   {
     "id": 8,
@@ -61,6 +61,6 @@
     "tipo": "multiple",
     "precio": 10400,
     "img": "/images/cart-item-1.png",
-    "cantidad": 10
+    "cantidad": 1
   }
 ]
