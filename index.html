@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESCAPES JB</title>
+    <script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+
+<header class="header">
+
+    <a href="#" class="logo">
+        <img src="images/logo.png" alt="">
+    </a>
+
+    <nav class="navbar">
+        <a href="#home">inicio</a>
+        <a href="#about">sobre nosotros</a>
+        <a href="#products">productos</a>
+        <a href="#review">opiniones</a>
+        <a href="#contact">contacto</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-shopping-cart" id="boton-carrito"><span id="contadorCarrito">0</span></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+    <div class="cart-items-container">
+        <h3>Carrito</h3>
+        <div id="carrito-contenedor" class="carrito-contenedor">
+           
+        </div>
+        <p class="precioProducto">Precio total: $<span id="precioTotal"></span></p>
+        <div id="terminar" style="display: flex; justify-content: flex-end;"></div>
+    </div>
+</header>
+
+
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Tenes que cambiar tu escape?</h3>
+        <p class="font-weight-bold">En ESCAPES JB vas a encontrar lo que estas buscando!</p>
+        <a href="#products" class="waves-effect waves-light btn">COMPRAR</a>
+    </div>
+
+</section>
+
+
+<section class="about" id="about">
+
+    <h1 class="heading"> <span>sobre</span> nosotros </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/about-img.jpeg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>que es Escapes JB?</h3>
+            <p>Es un emprendimiento familiar, donde nos aseguramos de dar el mejor servicio.</p>
+            <p>Constantemente actualizados con las nuevas tecnologias y productos para traerte la mejor y mas variada oferta</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="products" id="products">
+
+    <h1 class="heading">tienda <span>online</span> </h1>
+
+    <select id="selecTipo">
+        <option value="all">Todos</option>
+        <option value="multiple">multiple</option>
+        <option value="medio equipo">medio equipo</option>
+        <option value="equipo completo">equipo completo</option>
+    </select>
+    <div  id="contenedor-productos" class="box-container">
+   
+    </div>    
+
+</section>
+
+
+
+<section class="review" id="review">
+
+        <h1 class="heading"> opiniones <span>google</span> </h1>
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <img src="images/quote-img.png" alt="" class="quote">
+                <p>A mi me fueron honestos con el ruido que tenía en mi caño de escape. Me dieron la mitad del precio q sale en la concesionaria oficial de  ese repuesto. Dicen que en una hora lo arreglan y es verdad.</p>
+                <img src="images/pic-1.png" class="user" alt="">
+                <h3>Gaston D. Avale</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+    
+            <div class="box">
+                <img src="images/quote-img.png" alt="" class="quote">
+                <p>Excelente atención, rápido y muy buen precio. Lo conocí x las recomendaciones de Google y no fallaron!! Averigüe en varios lugares y el precio de este fue el mejor! Gracias!!</p>
+                <img src="images/pic-2.png" class="user" alt="">
+                <h3>ivi machado</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            
+            <div class="box">
+                <img src="images/quote-img.png" alt="" class="quote">
+                <p>El mejor lugar para escapes, tienen todos los accesorios, en un rato te hacen el trabajo.</p>
+                <img src="images/pic-3.png" class="user" alt="">
+                <h3>Lucas Damian Delfino</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+    
+        </div>
+    
+    </section>
+
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>contacto</span> </h1>
+
+    <div class="row">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.9969771369497!2d-57.597398384675756!3d-38.00053097971907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584d92bd3c5b643%3A0x9ba1afebc325d65a!2sAv.%20Juan%20B.%20Justo%205959%2C%20Mar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1643037716310!5m2!1ses-419!2sar" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>        <form action="">
+            <h3>tus datos</h3>
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" placeholder="nombre y apellido">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" placeholder="e-mail">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-phone"></span>
+                <input type="number" placeholder="celular (Whatsapp)">
+            </div>
+            <input type="submit" value="contact now" class="btn text-center" >
+        </form>
+
+    </div>
+
+</section>
+
+
+<section class="footer">
+
+    <div class="share">
+        <a href="https://www.facebook.com/escapes.jb/" class="fab fa-facebook-f" target="_blank"></a>
+        <a href="https://www.instagram.com/escapes_jb/?hl=es" class="fab fa-instagram" target="_blank"></a>
+
+    </div>
+
+    <div class="links">
+        <a href="#home">inicio</a>
+        <a href="#about">sobre nosotros</a>
+        <a href="#products">productos</a>
+        <a href="#review">opiniones</a>
+        <a href="#contact">contacto</a>
+
+    </div>
+
+    <div class="credit">diseñado por <span>daniel di leva</span> | todos los derechos reservados</div>
+
+</section>
+
+<div id="modal1" class="modal">
+    <div class="modal-content">
+        <div class="container">
+            <div class="col1">
+              <div class="card">
+                <div id="front" class="front">
+                  <div class="type">
+                    <img class="bankid"/>
+                  </div>
+                  <span class="chip"></span>
+                  <span class="card_number">&#x25CF;&#x25CF;&#x25CF;&#x25CF; &#x25CF;&#x25CF;&#x25CF;&#x25CF; &#x25CF;&#x25CF;&#x25CF;&#x25CF; &#x25CF;&#x25CF;&#x25CF;&#x25CF; </span>
+                  <div class="date"><span class="date_value">MM / YYYY</span></div>
+                  <span class="fullname">TITULAR</span>
+                </div>
+                <div id="back" class="back">
+                  <div class="magnetic"></div>
+                  <div class="bar"></div>
+                  <span class="seccode">&#x25CF;&#x25CF;&#x25CF;</span>
+                  <span class="chip"></span><span class="disclaimer">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero temporibus, totam assumenda, accusamus asperiores eaque fugiat illo maiores obcaecati at saepe expedita ab voluptatum quibusdam ipsa beatae veniam consectetur atque! </span>
+                </div>
+              </div>
+            </div>
+            <div class="col2">
+              <label>Número de Tarjeta</label>
+              <input class="number" type="text" required ng-model="ncard" maxlength="19" onkeypress='return event.charCode >= 48 && event.charCode <= 57'/>
+              <label>Nombre del Titular</label>
+              <input class="inputname" type="text" required placeholder=""/>
+              <label>Fecha de Vencimineto</label>
+              <input class="expire" type="text" required placeholder="MM / YYYY"/>
+              <label>Número Seguridad</label>
+              <input class="ccv" type="text" placeholder="CVC" required maxlength="3" onkeypress='return event.charCode >= 48 && event.charCode <= 57'/>
+              <button id="fin-compra" class="buy"><i class="material-icons">lock</i>Pagar $<span id="pagar">--.--</span></button>
+            </div>
+          </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat"><i class="far fa-times-circle"></i></a>
+    </div>
+  </div>
+
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+
+<script src="js/script.js"></script>
+<script src="app.js"></script>
+<script src="checkout.js"></script>
+</body>
+</html>
